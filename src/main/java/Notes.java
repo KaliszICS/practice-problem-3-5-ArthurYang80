@@ -13,39 +13,12 @@ class Notes {
 		//keep track of number of moves
 		int noOfMoves = 0;
 
-		dfsHelper(arr, curRow, curCol, noOfMoves);
+		return dfsHelper(arr, curRow, curCol, noOfMoves);
 		
 	}
 
 	public static int dfsHelper(String[][] arr, int curRow, int curCol, int noOfMoves) {
 
-		//base case
-		//going out of bounds (these are different for cols and rows)
-		//Reached the finish
-		//return (the finish and out of bounds are different)
-
-
-		// recursive call - increase no of moves
-		// go right (increase col)
-		// go up (decrease row)
-
-
-		//return the minimum steps (up and right)
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		//base case
 		//there isn't just one
@@ -64,6 +37,6 @@ class Notes {
 		//ensure that the number you send back is a valid number.
 
 		//return the shorter pathway(noOfMoves)
-		
+		return 0;
 	}
 }
